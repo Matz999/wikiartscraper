@@ -111,8 +111,8 @@ for link in link_list:
 
     # image download by urllib
 
-        # HERE YOU CAN SELECT THE DESIRED FOLDER
-        path = 'C:\\Users\\maxim\\Desktop\\mlpy\imgs\\'
+        # HERE YOU SELECT THE DESIRED FOLDER
+        path = 'C:\\'
         urllib.request.urlretrieve(src, path+img_filename)
         i += 1
         print(f"Downloaded: {src}")
